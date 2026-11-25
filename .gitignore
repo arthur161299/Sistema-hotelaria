@@ -1,0 +1,38 @@
+# Variaveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Credenciais
+application-local.properties
+application-secret.properties
+secrets/
+*.pem
+*.key
+*.p12
+*.jks
+
+# Java e Maven
+target/
+*.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Banco local
+*.db
+*.mv.db
+*.trace.db
+
+# Frontend futuro
+node_modules/
+dist/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
